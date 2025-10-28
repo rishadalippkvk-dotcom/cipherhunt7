@@ -8,7 +8,7 @@ level_1_answer = "Sports Arena"
 level_1_security_key = "John McCarthy"
 
 # Level 2
-level_2_answer = "Coordinator"
+level_2_answer = "Coordinates"
 level_2_security_key = "DBMS"
 
 # Level 3
@@ -25,4 +25,5 @@ level_5_security_key = "IDE"
 
 # Level 6
 level_6_answer = "Canteen"
+
 level_6_security_key = "console.log()"
