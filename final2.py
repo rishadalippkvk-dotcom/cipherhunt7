@@ -25,8 +25,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_1_answer"],
         "security_riddle": "I have a talent, but I don't use it",
         "security_key": answers["level_1_security_key"],
-        "hint": "💡 Where sports are played",
-        "security_hint": "💡 Father of Artificial Intelligence",
+        "hint": "💡 First word starts with 's'.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "easy",
         "points": 10
@@ -37,7 +37,7 @@ QUESTIONS: List[Dict] = [
         "security_riddle": "I wear rings",
         "security_key": answers["level_2_security_key"],
         "hint": "💡 2 oo",
-        "security_hint": "💡 Database Management System",
+        "security_hint": "Reverse gid (leaf)",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -47,8 +47,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_3_answer"],
         "security_riddle": "I have a mouth but I don't have tongue",
         "security_key": answers["level_3_security_key"],
-        "hint": "💡 Water flows down",
-        "security_hint": "💡 Founders of Google",
+        "hint": "💡 First letter starts with 'd' and ends with 's'.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "hard",
         "points": 20
@@ -58,8 +58,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_4_answer"],
         "security_riddle": "I bent but don’t fall",
         "security_key": answers["level_4_security_key"],
-        "hint": "💡 Entry point",
-        "security_hint": "💡 Inventor of the World Wide Web",
+        "hint": "No hints are available.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -69,8 +69,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_5_answer"],
         "security_riddle": "My heart is full of life",
         "security_key": answers["level_5_security_key"],
-        "hint": "💡 Vertical transportation",
-        "security_hint": "💡 Integrated Development Environment",
+        "hint": "No hints are available.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -80,8 +80,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_6_answer"],
         "security_riddle": "Between one spin and one swing",
         "security_key": answers["level_6_security_key"],
-        "hint": "💡 Where students eat and socialize",
-        "security_hint": "💡 JavaScript debugging function",
+        "hint": "No hints are available.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "hard",
         "points": 20
@@ -3580,4 +3580,5 @@ st.markdown("""
     <p style="font-size: 1rem;">Celebrating Open Source • Building Digital Freedom</p>
     <p style="font-size: 0.9rem; margin-top: 15px;">🔐 Elite Two-Phase Challenge System</p>
 </div>
+
 """, unsafe_allow_html=True)
